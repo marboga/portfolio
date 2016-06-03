@@ -1,2 +1,2 @@
-var MyApp = angular.module('MyApp', ['ngRoute', 'smoothScroll']);
+var MyApp = angular.module('MyApp', ['ngRoute']);
 // MyApp.constant('moment', moment)

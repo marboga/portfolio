@@ -1,6 +1,6 @@
 console.log('in config/routes.js')
 
-var models = require('../controllers/models.js'); // do this for each model
+// var models = require('../controllers/models.js'); // do this for each model
 
 module.exports = function(app){
 	app.get('/users', function(req, res){

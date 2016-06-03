@@ -4,7 +4,7 @@ MyApp.config(function($routeProvider){
 
 	.when('/', {
 		templateUrl: './../views/splash.html',
-		controller: 'scrollCtrl'
+		controller: 'usersController'
 	})
 	// .when('#about', {
 	// 	templateUrl: './../views/splash.html',

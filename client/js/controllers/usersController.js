@@ -1,34 +1,27 @@
 console.log('usersController loaded');
 
-MyApp.controller('usersController', function($scope, userFactory, $location, $smoothScroll, $routeParams){
+MyApp.controller('usersController', function($scope, userFactory, $location, $routeParams){
 	$scope.user = {};
-
-	// Using defaults
-	var element = document.getElementById('my-elem');
-	smoothScroll(element);
-
-	// With options
-	var element = $elem[0];
-
-	var options = {
-	    duration: 700,
-	    easing: 'easeInQuad',
-	    offset: 120,
-	    callbackBefore: function(element) {
-	        console.log('about to scroll to element', element);
-	    },
-	    callbackAfter: function(element) {
-	        console.log('scrolled to element', element);
+	$scope.select = {
+  	  value: "Option1",
+  	  choices: ["Option1", "I'm an option", "This is materialize", "No, this is Patrick."]
+   };
+	$(document).ready(function(){
+		console.log("document ready")
+		$('.parallax').parallax();
+	});
+	$(function() {
+	  $('a[href*="#"]:not([href="#"])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html, body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
 	    }
-	}
-
-	smoothScroll(element, options);
-
-
-	// In directive's link function
-	link: function($scope, $elem, $attrs){
-	    var options = $attrs;
-
-	    smoothScroll($elem[0], options);
-	}
+	  });
+	});
 })

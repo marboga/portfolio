@@ -1,67 +1,182 @@
-<div class="container" >
-	<div id="top" class="navbar navbar-fixed-top">
-		<!-- <div class="container"> -->
 
-		<ol class="breadcrumb">
-			<h2>Michael James Arbogast</h2>
-		  <li><a href="#/#about" scroll-to="my-element-1" >About</a></li>
-		  <li><a href="#/#projects">Projects</a></li>
-		  <li><a href="#/#contact">Contact</a></li>
-		</ol>
-	</div> <!-- navbar -->
-</div> <!-- container -->
+<div class="navbar-fixed">
+	<nav class="grey" role="navigation">
+		<div class="nav-wrapper container">
+			<a id="logo-container" href="#/" class="brand-logo hide-on-med-and-down">Michael James Arbogast</a>
+			<ul class="right hide-on-med-and-down">
+				<li><a class="waves-effect waves-light" href="#about">About</a></li>
+				<li><a class="waves-effect waves-light" href="#projects">Projects</a></li>
+				<li><a class="waves-effect waves-light" href="#contact">Contact</a></li>
+			</ul>
+
+			<ul id="nav-mobile" class="side-nav">
+				<li><a class="waves-effect waves-light" href="#about">About</a></li>
+				<li><a class="waves-effect waves-light" href="#projects">Projects</a></li>
+				<li><a class="waves-effect waves-light" href="#contact">Contact</a></li>
+			</ul>
+			<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">Michael James Arbogast</i></a>
+		</div>
+	</nav>
+</div>
+
+<!-- <div class="background horizon"> -->
+<div class="parallax-container" id="about">
+  <div class="caption">
+	 <span class="border">Hi! I'm Michael.</span>
+  </div>
+  <div class="parallax">
+	  <img src="static/horizonboat.jpeg" alt="standing rigging">
+  </div>
+</div>
+
+<div class="index-banner">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <br><br>
+		<div class="row center">
+ 		  <h5 class="header col s12 light">I design and build full-stack web and mobile applications using Node.js, Python(Django), and Swift.</h5>
+ 	  </div>
+      <div class="row center">
+			<h5 class="header col s12 light">What can I help you create?</h5>
+        <a href="#linkedin" class="waves-effect waves-light gray lighten-1">Ping me</a>
+      </div>
+      <br><br>
+    </div>
+  </div>
+  <!-- <div class="parallax">
+	  <img src="static/square-rig.jpeg" alt="standing rigging">
+  </div> -->
+</div>
 
 
+<div id="projects">
+<br><br>
+</div>
+<div class="projects" >
+	<h2>a few of my projects:</h2>
+		<div class="row">
 
-	<div class="horizon background">
-	  <div class="caption">
-		 <span class="border">Hi! I'm Michael.</span>
-	  </div>
-	</div>
-
-<div smooth-scroll></div>
-	<div class="green background">
-		<h4 id="about">I design and build websites from front-end to database, using Node.js, Express, Angular, and Django.</h4>
-		<h4>I also create iOS apps using Swift.</h4>
-	</div>
-	<div class="blue background"
-		<div class="information">
-			<h1 id="projects" >a few of my projects:</h1>
-			<div class="arranger col-md-12 col-sm-12">
-				<div class="panel-default col-md-4 col-sm-6 col-xs-12">
-					<div class="panel-heading">
-						<img class="demo" src="./../static/Neighborhood-2.png" alt="an image of my project" />
+	        <div class="col s12 m4">
+	          <div class="card">
+	            <div class="card-image waves-effect waves-block waves-light">
+	              <img class="activator" src="static/Neighborhood-2.png">
+	            </div>
+	            <div class="card-content">
+						<span class="card-title activator grey-text text-darken-3">Neighborhood</span>
+	            </div>
+	            <div class="card-reveal">
+						<span class="card-title grey-text center text-darken-3">Neighborhood</span>
+						<!-- <img class="card-image" src="static/Neighborhood-2.png"> -->
+						<p>Built in Django, <em>Neighborhood</em> is a local social network using Twitter and Google Maps integration to display recent tweets from the mile around your location - a graphical way to see what is going on around you in real time.</p>
+						<div class="card-action">
+							<a href="#">This is a link</a><br>
+							<a href="#">This is a link</a>
+						</div>
+						<ul>
+							<li>Python</li>
+							<li>Django</li>
+							<li>Twitter API</li>
+							<li>Google Maps API</li>
+							<li>Python Social Auth</li>
+						</ul>
+	            </div>
+					<div class="card-action">
+					  <a href="#">This is a link</a><br>
+					  <a href="#">This is a link</a>
 					</div>
-					<div class="panel-footer"><p><em>The Neighborhood</em>, a local social network using Twitter login to display recent tweets from the mile around your location.</p></div>
-				</div>
-				<div class="panel-default col-md-4 col-sm-6 col-xs-12">
-					<div class="panel-heading">
-						<img class="demo" src="./../static/Neighborhood-2.png" alt="an image of my project" />
+	          </div>
+	        </div>
+
+			  <div class="col s12 m4">
+	          <div class="card">
+	            <div class="card-image waves-effect waves-block waves-light">
+	              <img class="activator" src="static/mean-store.png">
+	            </div>
+	            <div class="card-content">
+						<span class="card-title activator grey-text text-darken-3">Marketplace</span>
+	            </div>
+	            <div class="card-reveal">
+						<span class="card-title grey-text center text-darken-3">Marketplace</span>
+						<!-- <img class="card-image" src="static/Neighborhood-2.png"> -->
+						<p>This <em>Marketplace</em> is a functional commerce site with full CRUD operations. It boasts an Angular front-end, Mongoose/MongoDB database, Node.js server and the glory of nonrelational database associations.</p>
+						<div class="card-action">
+							<a href="#">This is a link</a><br>
+							<a href="#">This is a link</a>
+						</div>
+						<ul>
+							<li>Node.js</li>
+							<li>Express.js</li>
+							<li>MongoDB</li>
+							<li>Mongoose</li>
+							<li>Angular 1.5</li>
+						</ul>
+	            </div>
+					<div class="card-action">
+					  <a href="#">This is a link</a><br>
+					  <a href="#">This is a link</a>
 					</div>
-					<div class="panel-footer"><p><em>Sprog</em>, a language-learning flashcard website.</p></div>
-				</div>
-				<div class="panel-default col-md-4 col-sm-6 col-xs-12">
-					<div class="panel-heading">
-						<img class="demo" src="./../static/Neighborhood-2.png" alt="an image of my project" />
+	          </div>
+	        </div>
+
+			  <div class="col s12 m4">
+	          <div class="card">
+	            <div class="card-image waves-effect waves-block waves-light">
+	              <img class="activator" src="static/Neighborhood-2.png">
+	            </div>
+	            <div class="card-content">
+						<span class="card-title activator grey-text text-darken-3">Neighborhood</span>
+	            </div>
+	            <div class="card-reveal">
+						<span class="card-title grey-text center text-darken-3">Neighborhood</span>
+						<!-- <img class="card-image" src="static/Neighborhood-2.png"> -->
+						<p>Built in Django, <em>Neighborhood</em> is a local social network using Twitter and Google Maps integration to display recent tweets from the mile around your location - a graphical way to see what is going on around you in real time.</p>
+						<div class="card-action">
+							<a href="#">This is a link</a><br>
+							<a href="#">This is a link</a>
+						</div>
+						<ul>
+							<li>Python</li>
+							<li>Django</li>
+							<li>Twitter API</li>
+							<li>Google Maps API</li>
+							<li>Python Social Auth</li>
+						</ul>
+	            </div>
+					<div class="card-action">
+					  <a href="#">This is a link</a><br>
+					  <a href="#">This is a link</a>
 					</div>
-					<div class="panel-footer"><em>Capture!</em>, a multiplayer real-life urban capture the flag game.</div>
-				</div>
+	          </div>
+	        </div>
 
- 		  </div>
+		  </div> <!-- row -->
+  </div> <!-- projects -->
 
-	  </div> <!-- information -->
+<div id="contact">
+	<br><br>
+</div>
+<div class="contact-info">
+	<div class="section no-pad-bot">
+		<div class="container">
+			<br><br>
+			<div class="row center">
+				<h4 class="header col s12 light">You can reach me at:</h4>
+				<a href="mailto:michael.arbogast@gmail.com?subject=feedback">michael.arbogast@gmail.com</a>
+			</div>
+			<div class="row center">
+				<a href="#contact" class="btn waves-effect waves-light green lighten-1">LinkedIn</a>
+				<br><br>
+			</div>
+		</div>
 	</div>
+</div>
+<div class="heel background">
 
-	<div class="heel background">
+</div>
 
-	</div>
-
-	<div style="position:relative;">
-	  <div id="contact" class="spacer">
-	    <p>Copyright 2016 Michael Arbogast.</p>
-	  </div>
-	</div>
-
-
-
+<div style="position:relative;">
+  <div id="contact" class="spacer">
+    <p>Copyright 2016 Michael Arbogast.</p>
+  </div>
+</div>
 </div>
