@@ -1,0 +1,108 @@
+body, html {
+	height: 100vh;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+div.container {
+
+	font-family: 'PT Serif', serif;
+}
+div.navbar {
+	text-align: center;
+	/*background-color: #6AB781;*/
+}
+.info {
+	padding-top: 100px;
+	text-align: center;
+
+}
+/*h1 {
+	padding: 25px;
+}*/
+
+.heel {
+	background-image: url("heel.jpeg");
+}
+.horizon {
+	background-image: url("horizonboat.jpeg");
+	min-height: 120%;
+}
+.demo {
+	height: 300px;
+	width: 100%;
+
+}
+.background {
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: right;
+	min-height: 100vh;
+}
+.spacer {
+	color: #88EAA5;
+	background-color: #254F3D;
+	text-align: center;
+	padding: 30px 80px;
+	text-align: justify;
+}
+.green {
+	position: relative;
+	padding: 20px;
+   opacity: 0.85;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+	background-color: #81DB90;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  border-radius: 20%;
+}
+
+.caption span.border {
+  background-color: #fff;
+  color: #333;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  border-radius: 8px;
+}
+.information {
+	background-color: #2F7C3D;
+   color: #333;
+   padding: 18px;
+   font-size: 2em;
+   border-radius: 12px;
+	min-height: 100px;
+}
+.information h1 {
+	color: white;
+	text-align: center;
+}
+.card {
+	display: inline-block;
+
+	image-orientation: vertical;
+	font: 0.7em "Lato", sans-serif;
+}
+.panel-footer p {
+	font: 0.3em;
+}
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+#projects {
+	text-align: center;
+}

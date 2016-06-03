@@ -1,0 +1,31 @@
+{
+  "name": "folders",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.13",
+    "mongoose-deep-populate": "^3.0.0",
+    "ng-parallax": "^1.0.1",
+    "path": "^0.12.7",
+    "session": "^0.1.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marboga/mean-folder-structure.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marboga/mean-folder-structure/issues"
+  },
+  "homepage": "https://github.com/marboga/mean-folder-structure#readme",
+  "description": ""
+}
