@@ -18,13 +18,6 @@ div.navbar {
 	text-align: center;
 
 }
-.heel {
-	background-image: url("heel.jpeg");
-}
-.horizon {
-	background-image: url("horizonboat.jpeg");
-	min-height: 120%;
-}
 .demo {
 	height: 300px;
 	width: 100%;
@@ -42,11 +35,23 @@ div.navbar {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: right;
-	min-height: 100vh;
+	/*min-height: 100vh;*/
+}
+.heel {
+	background-image: url("heel.jpeg");
+	height: 80vh;
+}
+.horizon {
+	background-image: url("horizonboat.jpeg");
+	min-height: 120vh;
 }
 .card-reveal img {
 	height: 80%;
 	width: 100%;
+}
+.logo {
+	height: 48px;
+	width: 48px;
 }
 .spacer {
 	color: #88EAA5;
@@ -63,7 +68,7 @@ div.navbar {
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-	background-color: #81DB90;
+	background-color: #254F3D;
 }
 .caption {
   position: absolute;
@@ -100,6 +105,13 @@ div.navbar {
 
 	image-orientation: vertical;
 	font: 0.7em "Lato", sans-serif;
+}
+.contacts img {
+	margin: 20px;
+}
+.emailogo {
+	height: 64px;
+	width: 64px;
 }
 .card p {
 	margin-top: 7px;

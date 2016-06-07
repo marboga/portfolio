@@ -14,7 +14,7 @@
 		<script type="text/javascript" src="/static/angular.js"></script>
 		<script type="text/javascript" src="/static/angular-route.js"></script>
 
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-materialize/0.1.8/angular-materialize.min.js"></script>
+		<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-materialize/0.1.8/angular-materialize.min.js"></script> -->
 
 		<script type="text/javascript" src="./js/config/app.js"></script>
 
@@ -25,11 +25,11 @@
 		<!-- then controllers -->
 		<script type="text/javascript" src="./js/controllers/usersController.js"></script>
 
-
 		<!-- routes last -->
 		<script type="text/javascript" src="./js/config/routes.js"></script>
 
 		<script type="text/javascript">
+		//This is the function which makes clicking on navbar items smooth and slow
 			$(function() {
 				$('a[href*="#"]:not([href="#"])').click(function() {
 				 if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {

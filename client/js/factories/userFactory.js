@@ -1,4 +1,4 @@
-console.log('userFactory loaded');
+// console.log('userFactory loaded');
 
 MyApp.factory('userFactory', function($http){
 	var factory = {}
