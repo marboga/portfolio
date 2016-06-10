@@ -45,6 +45,18 @@ div.navbar {
 	background-image: url("horizonboat.jpeg");
 	min-height: 120vh;
 }
+
+.intro {
+	background-color: white;
+	padding: 15px;
+	border-radius: 20px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-family: 'PT Serif', serif;
+	font-size: 2em;
+
+}
+
 .card-reveal img {
 	height: 80%;
 	width: 100%;
