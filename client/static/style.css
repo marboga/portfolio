@@ -102,9 +102,12 @@ div.navbar {
 }
 .card {
 	display: inline-block;
-
 	image-orientation: vertical;
 	font: 0.7em "Lato", sans-serif;
+}
+.project{
+	max-height: 500px;
+	overflow: scroll;
 }
 .contacts img {
 	margin: 20px;
