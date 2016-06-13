@@ -56,7 +56,9 @@ div.navbar {
 	font-size: 2em;
 
 }
-
+ul li {
+	font-size: 0.8em;
+}
 .card-reveal img {
 	height: 80%;
 	width: 100%;
