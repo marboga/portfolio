@@ -30,6 +30,9 @@ div.navbar {
 	width: 100%;
 	display: block;
 }
+.big {
+	min-height: 120vh;
+}
 .background {
 	background-size: cover;
 	background-attachment: fixed;
@@ -46,15 +49,9 @@ div.navbar {
 	min-height: 120vh;
 }
 
-.intro {
-	background-color: white;
-	padding: 15px;
-	border-radius: 20px;
-	margin-top: 25px;
-	margin-bottom: 25px;
-	font-family: 'PT Serif', serif;
-	font-size: 2em;
-
+div.projects {
+	background-image: url("square-rig.jpeg");
+	background-position: bottom;
 }
 ul li {
 	font-size: 0.8em;
@@ -82,7 +79,7 @@ ul li {
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-	background-color: #254F3D;
+	/*background-color: #254F3D;*/
 }
 .caption {
   position: absolute;
@@ -103,7 +100,7 @@ ul li {
   border-radius: 8px;
 }
 .information {
-	background-color: #254F3D;
+	/*background-color: #254F3D;*/
    color: #333;
    padding: 18px;
    font-size: 2em;
@@ -145,4 +142,18 @@ h3 {
 }
 #projects {
 	text-align: center;
+}
+.intro {
+	background-color: white;
+	padding: 15px;
+	border-radius: 20px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-family: 'PT Serif', serif;
+	font-size: 2em;
+	color: #222;
+}
+h2.intro {
+	color: #222;
+	font-size: 2em;
 }

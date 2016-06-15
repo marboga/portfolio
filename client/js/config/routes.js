@@ -6,10 +6,14 @@ MyApp.config(function($routeProvider){
 		templateUrl: './../views/splash.html',
 		controller: 'usersController'
 	})
-	// .when('#about', {
-	// 	templateUrl: './../views/splash.html',
-	// 	controller: 'usersController'
-	// })
-	// //
-	// .otherwise('/')
+	.when('/neighborhood', {
+		templateUrl: './../views/neighborhood.html',
+		controller: 'usersController'
+	})
+	.when('/capture', {
+		templateUrl: './../views/capture.html',
+		controller: 'usersController'
+	})
+	//
+	.otherwise('/')
 })
