@@ -89,16 +89,31 @@ ul li {
   text-align: center;
   color: #000;
   border-radius: 20%;
-}
 
-.caption span.border {
-  background-color: #fff;
-  color: #333;
-  padding: 28px;
-  font-size: 25px;
-  letter-spacing: 10px;
-  border-radius: 8px;
+  
 }
+	.caption span.border {
+	  background-color: #fff;
+	  color: #333;
+	  padding: 28px;
+	  font-size: 25px;
+	  letter-spacing: 10px;
+	  border-radius: 8px;
+	}
+.intro {
+	background-color: white;
+	padding: 15px;
+	border-radius: 20px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-family: 'PT Serif', serif;
+	font-size: 2em;
+	color: #222;
+}
+	h2.intro {
+		color: #222;
+		font-size: 2em;
+	}
 .information {
 	/*background-color: #254F3D;*/
    color: #333;
@@ -142,18 +157,4 @@ h3 {
 }
 #projects {
 	text-align: center;
-}
-.intro {
-	background-color: white;
-	padding: 15px;
-	border-radius: 20px;
-	margin-top: 25px;
-	margin-bottom: 25px;
-	font-family: 'PT Serif', serif;
-	font-size: 2em;
-	color: #222;
-}
-h2.intro {
-	color: #222;
-	font-size: 2em;
 }
