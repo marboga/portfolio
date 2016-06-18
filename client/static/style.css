@@ -159,3 +159,9 @@ h3 {
 #projects {
 	text-align: center;
 }
+img.logobig {
+	height: 70px;
+}
+.textcenter {
+	text-align: center;
+}
